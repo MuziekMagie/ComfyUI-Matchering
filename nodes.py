@@ -27,7 +27,7 @@ class Matchering:
         "Result (no limiter, normalized)",
     )
 
-    CATEGORY = "audio"
+    CATEGORY = "audio/matchering"
     FUNCTION = "matchering"
 
     def matchering(
@@ -122,7 +122,7 @@ class MatcheringAdvanced:
         "Result (no limiter, normalized)",
     )
 
-    CATEGORY = "audio"
+    CATEGORY = "audio/matchering"
     FUNCTION = "matchering_advanced"
 
     def matchering_advanced(
@@ -223,7 +223,7 @@ class MatcheringLimiterConfig:
     RETURN_TYPES = ("MATCHERING_LIMITER_CONFIG",)
     RETURN_NAMES = ("limiter_config",)
 
-    CATEGORY = "audio"
+    CATEGORY = "audio/matchering"
     FUNCTION = "matchering_limiter_config"
 
     def matchering_limiter_config(
