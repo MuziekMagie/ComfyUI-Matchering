@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-matchering"
+description = "A [a/Matchering](https://github.com/sergree/matchering)-node for ComfyUI.\nNOTE: You take TWO audio files and feed them into Matchering"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.23.4", "scipy>=1.9.2", "soundfile>=0.11.0", "resampy>=0.4.2", "statsmodels>=0.13.2"]
+
+[project.urls]
+Repository = "https://github.com/MuziekMagie/ComfyUI-Matchering"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Matchering"
+Icon = ""
