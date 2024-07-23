@@ -10,6 +10,6 @@ Repository = "https://github.com/MuziekMagie/ComfyUI-Matchering"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "muziekmagie"
 DisplayName = "ComfyUI-Matchering"
 Icon = ""
